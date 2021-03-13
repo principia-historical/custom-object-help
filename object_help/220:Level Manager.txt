@@ -1,7 +1,9 @@
-Set the light intensity of your level.
+The level manager object was broken in 1.5.1, and is currently useless.
+
+<s>Set the light intensity of your level.
 
 Advanced help:
 <b><tt>IN0</tt></b>: Set ambient to value of IN1
 <b><tt>IN1</tt></b>: Ambient value
 <b><tt>IN2</tt></b>: Set diffuse to value of IN3
-<b><tt>IN3</tt></b>: Diffuse value
+<b><tt>IN3</tt></b>: Diffuse value</s>
