@@ -1,0 +1,1 @@
+Unused gears with odd collision. It has 4 different configurable sizes.
