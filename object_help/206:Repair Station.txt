@@ -1,3 +1,5 @@
+<b>NOTE: This is a beta object, please be careful when using it as it can have unintended behavior.</b>
+
 Used to repair robots.
 
 Objects can be dragged to the antenna using the builder tool.

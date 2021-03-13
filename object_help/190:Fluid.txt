@@ -1,4 +1,6 @@
-NOTE: This is a beta object, please be careful. Post suggestions and bug reports to the forum. A fluid restricted to one layer, interacting with sublayers 2 and 3.
+<b>NOTE: This is a beta object, please be careful when using it as it can have unintended behavior.</b>
+
+A fluid restricted to one layer, interacting with sublayers 2 and 3.
 
 There is a hard limit of 4096 fluid particles, when the limit is reached, no more particles will be created.
 

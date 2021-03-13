@@ -1,4 +1,4 @@
-An electronic device which creates sounds based on its settings and electronic inputs. This is a BETA object which means it's still a work in progress, and any feedback is greatly appreciated.
+An electronic device which creates sounds based on its settings and electronic inputs.
 
 Advanced help:
 Waveform - How the emitted sound will oscillate

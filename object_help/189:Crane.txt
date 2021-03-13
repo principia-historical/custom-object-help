@@ -1,3 +1,5 @@
+<b>NOTE: This is a beta object, please be careful when using it as it can have unintended behavior.</b>
+
 A crane that can be used to hold big things you are building.
 
 <b><tt>IN0</tt></b>: State control

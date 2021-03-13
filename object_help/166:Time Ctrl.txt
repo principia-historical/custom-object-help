@@ -1,4 +1,6 @@
-Slow down time according to the input value. This is a BETA object and it can make the simulation buggy. Please report any issues related to object forces and timings.
+<b>NOTE: This is a beta object, please be careful when using it as it can have unintended behavior.</b>
+
+Slow down time according to the input value.
 
 Time can NOT be stopped completely since that would stop all electronics from running and prevent you from starting time again. An epsilon value of 0.01 is added as the minimum time speed.
 

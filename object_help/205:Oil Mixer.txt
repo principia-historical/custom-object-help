@@ -1,3 +1,5 @@
+<b>NOTE: This is a beta object, please be careful when using it as it can have unintended behavior.</b>
+
 Works like factory. Click to create oils.
 
 <b><tt>IN0</tt></b>: Add to queue

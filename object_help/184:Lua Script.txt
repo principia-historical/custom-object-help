@@ -1,7 +1,5 @@
 Lua Script object, create your own objects by scripting them. To learn more about Lua scripting, just search Google for Lua.
 
-WARNING: This object is experimental! More stuff will be added soon.
-
 The standard Lua math library is available through the global 'math'. For example, math.floor(x), math.sin(a).
 
 Visit the wiki at wiki.principiagame.com to read more about Lua scripting in Principia.
