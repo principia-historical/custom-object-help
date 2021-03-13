@@ -1,0 +1,1 @@
+A magnet similar to the Magnet object, but its strength is controlled by IN0.
