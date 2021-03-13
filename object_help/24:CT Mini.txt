@@ -1,0 +1,12 @@
+This controller controls the speed and direction of a motor.
+
+<b><tt>OUT0</tt></b>: Motor interface, blue cable
+<b><tt>IN1</tt></b>: Speed control (optional)
+<b><tt>IN2</tt></b>: Reverse (optional)
+<b><tt>IN0</tt></b>: Power
+
+To drive a motor you will need 3 objects in total: The motor, a controller (CT), and a power source. Connect <b><tt>IN0</tt></b> of the CT Mini to a power source (battery or power supply), and connect <b><tt>OUT0</tt></b> of the CT to any kind of motor.
+
+<b><tt>IN1</tt></b> allows you to control the speed of the connected motor. The resulting motor speed is proportional to the input voltage. Leaving <b><tt>IN1</tt></b> disconnected will result in constant maximum speed.
+
+<b><tt>IN2</tt></b> Reverses the motor as long as a rounded value of 1 is read from the input

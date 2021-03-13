@@ -1,0 +1,5 @@
+Detects laser beams.
+
+Outputs 1 to <b><tt>OUT0</tt></b> if a laser with the correct wavelength hit the sensor.
+
+<b><tt>OUT0</tt></b>: Laser status

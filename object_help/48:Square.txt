@@ -1,0 +1,1 @@
+Outputs <span font_family="monospace" background="white"><b>IN0</b> * <b>IN0</b></span>. Does not affect binary signals.

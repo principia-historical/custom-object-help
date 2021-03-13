@@ -1,0 +1,7 @@
+Outputs the value of IN0 if IN2 is less than 0.5, otherwise output the value of IN1.
+
+Advanced help:
+<b><tt>IN0</tt></b>: Value
+<b><tt>IN1</tt></b>: Value
+<b><tt>IN2</tt></b>: Conditional
+<b><tt>OUT0</tt></b>: Conditional ? IN1 : IN0

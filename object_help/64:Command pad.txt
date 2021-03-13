@@ -1,0 +1,17 @@
+When a Robot steps on the command pad, he will receive and obey the given message. <b><tt>IN0</tt></b>: Activate, by default on if no cable is connected.
+
+Available commands:
+<b><tt>Stop</tt></b>: Stops the robot.
+<b><tt>Start/Stop toggle</tt></b>: If <b><tt>IN0</tt></b> is connected and is <b><tt>0</tt></b>, stop the robot. If <b><tt>IN0</tt></b> is <b><tt>1</tt></b>, start the robot. If <b><tt>IN0</tt></b> is not connected, toggle the robots current start or stop value.
+<b><tt>Left</tt></b>: Changes the robots direction to <b>left</b>.
+<b><tt>Right</tt></b>: Changes the robots direction to <b>right</b>.
+<b><tt>Left/Right toggle</tt></b>: Toggles the robot direction.
+<b><tt>Jump</tt></b>: Commands the robot to jump. Slider sets with what strength the robot jumps.
+<b><tt>Aim</tt></b>: 
+<b><tt>Attack</tt></b>: Commands the robot to attack.
+<b><tt>Layer up</tt></b>: Commands the robot to move one layer up.
+<b><tt>Layer down</tt></b>: Commands the robot to move one layer down.
+<b><tt>Increase speed</tt></b>: Commands the robot to increase its speed depending on the slider value.
+<b><tt>Decrease speed</tt></b>: Commands the robot to decrease its speed depending on the slider value.
+<b><tt>Set speed</tt></b>: Sets the robots speed depending on the slider value.
+<b><tt>Full health</tt></b>: Gives the robot full health.

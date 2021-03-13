@@ -1,0 +1,6 @@
+Manages the global gravity. Use IN0 and IN1 to set the gravity based on angle and force. Modify the gravity multiplier with IN2.
+
+Advanced help:
+<b><tt>IN0</tt></b>: Angle
+<b><tt>IN1</tt></b>: Force
+<b><tt>IN2</tt></b>: Active (+ modifier)

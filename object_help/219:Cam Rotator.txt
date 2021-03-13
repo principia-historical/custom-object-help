@@ -1,0 +1,5 @@
+Rotate the camera to the angle of IN1 if IN0 is above 0.5.
+
+Advanced help:
+<b><tt>IN0</tt></b>: Set camera angle
+<b><tt>IN1</tt></b>: Camera angle value

@@ -1,0 +1,1 @@
+Launches small bombs. Shoot a second time for the bomb to explode.

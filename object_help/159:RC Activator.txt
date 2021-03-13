@@ -1,0 +1,4 @@
+Remotely activate an RC. Use the crosshair button to select the target RC.
+
+<b><tt>IN0</tt></b>: Activate RC
+<b><tt>OUT0</tt></b>: 1.0 if the RC is currently activated

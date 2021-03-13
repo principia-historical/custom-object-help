@@ -1,0 +1,6 @@
+Triggered by cursors or finger inside its field. Great for in-game buttons.
+
+Advanced help:
+<b><tt>OUT0</tt></b>: Player clicked inside field
+<b><tt>OUT1</tt></b>: Player currently dragging cursor/finger inside the field
+<b><tt>OUT2</tt></b>: Cursor hovering above the field (not implemented yet)

@@ -1,0 +1,1 @@
+Subtract <b><tt>IN1</tt></b> from <b><tt>IN0</tt></b> and output the result to <b><tt>OUT0</tt></b>. If the result is below 0.0, it is wrapped around. For example, 0.1 - 0.2 = 0.9.

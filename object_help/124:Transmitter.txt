@@ -1,0 +1,6 @@
+Transmit a signal over a frequency.
+
+If <b><tt>IN1</tt></b> is used, the used frequency is shifted by +<b><tt>IN1</tt></b>*10 rounded to the nearest whole value.
+
+<b><tt>IN0</tt></b>: The signal to transmit.
+<b><tt>IN1</tt></b>: Frequency shift.

@@ -1,0 +1,5 @@
+5 <b><tt>OUT</tt></b>, 3 <b><tt>IN</tt></b>
+
+The input signal (<b><tt>IN0</tt></b>) is sent to any of the 5 outputs. Initially, the signal is sent to <b><tt>OUT0</tt></b>. The <b><tt>IN1</tt></b> and <b><tt>IN2</tt></b> switch which output receives the signal. If a 1 is sent to <b><tt>IN2</tt></b>, the next output is selected, if a 1 is sent to <b><tt>IN1</tt></b>, the previous output is selected.
+
+A Sparsifier can help filter out abundant data.

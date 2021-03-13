@@ -1,0 +1,7 @@
+Detects an object of a specific type. All objects of the target type will be detected by the field. When an object of the target type enters the field, 1.0 is reported through OUT0, otherwise 0.0 is reported.
+
+Electronics:
+<b><tt>OUT0</tt></b>: Detection status
+
+Sandbox Editor Help:
+Use the crosshair button to select an object. For example, select a metal ball and all metal balls will trigger the object field. The object field ignores properties such as the size of cylinders.

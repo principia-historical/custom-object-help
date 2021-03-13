@@ -1,0 +1,1 @@
+Electronically controlled resistor. Use IN1 to control the resistance.

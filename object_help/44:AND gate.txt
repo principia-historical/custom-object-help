@@ -1,0 +1,7 @@
+Outputs 1 when both of its inputs are 1.
+
+Advanced help:
+Binary device. If both <b><tt>IN0</tt></b> and <b><tt>IN1</tt></b> is 1, output 1. Otherwise output 0. Since this is a binary device, the input value is rounded so any value above 0.5 is equal to 1.
+<b><tt>IN0</tt></b>: Value A
+<b><tt>IN1</tt></b>: Value B
+<b><tt>OUT0</tt></b>: A AND B

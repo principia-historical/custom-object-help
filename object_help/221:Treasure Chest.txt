@@ -1,0 +1,3 @@
+Treasure chest with randomized loot.
+
+Click the configuration button to set a custom loot.

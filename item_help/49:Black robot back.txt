@@ -1,0 +1,3 @@
+Weights less than normal robot back.
+
+Bring this item to a repair station to equip it.

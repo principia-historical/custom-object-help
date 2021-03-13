@@ -1,0 +1,10 @@
+Output a value according to:
+
+<span font_family="monospace" background="white">I := xa + I(1-a)</span>
+
+Where <span font_family="monospace" background="white">x</span> is the input signal, <span font_family="monospace" background="white">I</span> is the internal value and <span font_family="monospace" background="white">a</span> is a weight factor.
+
+<span font_family="monospace" background="white">I</span> is always initially 0.
+
+Example usage:
+Connect a Moving Average component to a Floor component, the input value of the system will "charge" for some time depending on the Moving Average's weight factor, before a 1 is output.

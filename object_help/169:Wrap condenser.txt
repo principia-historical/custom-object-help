@@ -1,0 +1,1 @@
+Same properties as a Condenser, but the value will wrap around.

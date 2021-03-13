@@ -1,0 +1,1 @@
+Multiple ladders can be attached to each other.

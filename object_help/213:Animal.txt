@@ -1,0 +1,3 @@
+Robot animals.
+
+Click the configuration button to change animal type and adjust the slider to change age.

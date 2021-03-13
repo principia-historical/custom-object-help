@@ -1,0 +1,1 @@
+Plastic object with customizable shape and color. Click a corner and then the configuration button to change the color.

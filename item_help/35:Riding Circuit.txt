@@ -1,0 +1,3 @@
+Circuit used for riding animals.
+
+Bring this item to a repair station to equip it.

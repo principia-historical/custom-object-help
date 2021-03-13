@@ -1,0 +1,1 @@
+Plug this into a signal socket to set the signal to a constant value.

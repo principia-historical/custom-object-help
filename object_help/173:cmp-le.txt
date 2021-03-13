@@ -1,0 +1,6 @@
+Outputs 1 if the <b><tt>IN0</tt></b> input value is less than or equal to the <b><tt>IN1</tt></b> input value, otherwise output 0.
+
+Advanced help:
+<b><tt>IN0</tt></b>: Value A
+<b><tt>IN1</tt></b>: Value B
+<b><tt>OUT0</tt></b>: IF (A &lt;= B) THEN 1 ELSE 0

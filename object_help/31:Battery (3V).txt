@@ -1,0 +1,1 @@
+2 AA 1.5V batteries series connected, totaling 3 V. Use white power cables to give power to objects such as the Fan or the Simple Motor.

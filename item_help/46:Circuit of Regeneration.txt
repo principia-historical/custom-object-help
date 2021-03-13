@@ -1,0 +1,3 @@
+Regenerates HP over time.
+
+Bring this item to a repair station to equip it.

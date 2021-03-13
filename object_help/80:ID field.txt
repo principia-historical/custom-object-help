@@ -1,0 +1,7 @@
+Reports when a specific object is inside the field.  Will report 1.0 when the targeted object enters the field, otherwise it will report 0.0.
+
+Electronics:
+<b><tt>OUT0</tt></b>: Detection status
+
+Sandbox Editor Help:
+Use the crosshair button to select an object which object the field detects.

@@ -1,0 +1,9 @@
+Output 1 if <b><tt>IN0</tt></b> is not equal to the last value of <b><tt>IN0</tt></b>. Essentially, bit noise is smoothed out and coherent signal streams are turned into sparse noise.
+
+Example 1)
+<span font_family="monospace" background="white">00001111000010</span> -> <span font_family="monospace" background="white">00001000100011</span>
+
+Example 2)
+<span font_family="monospace" background="white">01010101</span> -> <span font_family="monospace" background="white">01111111</span>
+
+Use this gate to do, for example, nothing. :(

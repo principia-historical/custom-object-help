@@ -1,0 +1,22 @@
+Various I/O to control level completion and scoring.
+
+<b><tt>IN0</tt></b>:  Player wins the game
+<b><tt>IN1</tt></b>:  Player loses the game
+<b><tt>IN2</tt></b>:  Score +1
+<b><tt>IN3</tt></b>:  Score +50
+<b><tt>IN4</tt></b>:  Score +100
+<b><tt>IN5</tt></b>:  Score +250
+<b><tt>IN6</tt></b>:  Score +500
+<b><tt>IN7</tt></b>:  Score -1
+<b><tt>IN8</tt></b>:  Score -50
+<b><tt>IN9</tt></b>:  Score -100
+<b><tt>IN10</tt></b>: Score -250
+<b><tt>IN11</tt></b>: Score -500
+<b><tt>IN12</tt></b>: Restart Level
+<b><tt>OUT0</tt></b>: Output current score as a fraction: <span font_family="monospace" background="white">current_score/max_score</span>. If there is no max score, 0 is always output.
+
+The game ends if a value of 1 is sent to either <b><tt>IN0</tt></b> or <b><tt>IN1</tt></b>. If the game is lost, no highscore is saved.
+
+The game may also end automatically if the final score is reached.
+
+<u>NOTE:</u> <b><tt>OUT0</tt></b> can be used to check whether the final score has been reached. You may want to use a Floor component to filter this value before you pass it on to binary devices, otherwise a value of 0.5 (half final score reached) will be interpreted by the binary device as a value of 1.

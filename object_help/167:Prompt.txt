@@ -1,0 +1,7 @@
+Upon receiving a signal of 1 to <b><tt>IN0</tt></b>, a customizable dialog will be shown to the player. Use the config dialog to specify the details of the dialog. Use the output sockets to receive signals for which option the user selected.
+
+Advanced help:
+<b><tt>IN0</tt></b>: Activate. It's recommended to use limit or sparsifier to this input.
+<b><tt>OUT0</tt></b>: Button 1 pressed
+<b><tt>OUT1</tt></b>: Button 2 pressed
+<b><tt>OUT2</tt></b>: Button 3 pressed

@@ -1,0 +1,130 @@
+Lua Script object, create your own objects by scripting them. To learn more about Lua scripting, just search Google for Lua.
+
+WARNING: This object is experimental! More stuff will be added soon.
+
+The standard Lua math library is available through the global 'math'. For example, math.floor(x), math.sin(a).
+
+Visit the wiki at wiki.principiagame.com to read more about Lua scripting in Principia.
+
+Below is a list of Principia-specific Lua stuff.
+
+Global objects and their methods:
+
+== this - a reference to the script object itself ==
+this:read(x)   - read INx where x is any of the 4 available sockets
+this:write(x, v)  - write value v to OUTx, will be clamped between 0 and 1
+this:write_frequency(frequency, value) - write value to frequency
+this:listen_on_frequency(frequency) - begin listening to frequency. can only be done on first run
+this:read_frequency(frequency) - read value from frequency (must have started listening)
+this:first_run() - returns true if this is the first time the script is run
+this:get_position() - returns an array with the position [x, y] of the luascript object 
+
+For sprite rendering functions, see the Sprite Rendering section below.
+
+== game - game stuff ==
+game:show_numfeed(x) - show the number X on the screen (for debugging) 
+game:finish(success) - finishes the game with the desired state. 1 = win, 0 = lose
+game:add_score(x)    - adds x score to the current score. can be used to decrease score
+game:set_score(x)    - sets the score to x
+game:get_score()     - gets the current score
+game:activate_rc(e)  - activates the entity objects widgets (usable on RCs)
+game:activate_rc_by_id(e_id) - activates the widgets for the entity with set id
+
+- game:message(text)
+Show a message on the screen with provided text. Use this function sparingly. An optional argument to specify the duration of the message can be provided, set the extra argument to 1 for long duration or 0 for short duration (default).
+
+- game:poll_event(event_id)
+Check if an event has happened. Returns true or false depending on whether the event with id event_id has happened since the last electronics tick. See the Event Listener object for available events. The first event has id 0, the next event ID 1, and so on. For example, to check for cursor clicks: game:poll_event(4)
+
+- game:get_cursor(layer)
+Get the exact cursor position (first finger or mouse) in the given layer. Returns x and y.
+
+== cam - the camera ==
+cam:get_position()    - array of x, y and z
+cam:get_velocity()    - array of x and y velocity
+cam:set_position(x,y,z)
+cam:set_velocity(x,y)
+cam:follow_entity(entity, do_snap, preserve_position)
+cam:follow_entity_by_id(id, do_snap, preserve_position)
+
+== world - world functions ==
+
+- world:get_entity_by_id(id)
+Returns an entity (object) reference or nil of the object does not exist
+
+- world:get_gravity()
+Get the world gravity. Gravity is either set in the level properties , the sum of all gravity managers or set by a gravity setter. Returns 2 values, x and y.
+
+- world:raycast(x1, y1, x2, y2, layer)
+Raycast from [x1, y1] to [x2, y2] and report the first object that was
+detected. Layer can be 1, 2 or 3, where 1 is the inner-most layer.
+This function will return 3 values: an entity, the hitpoint, and the
+collision normal.
+
+- world:query(min_x, min_y, max_x, max_y, layer)
+This function creates a rectangle in the world with lower left corner [min_x, min_y] and upper right corner [max_x, max_y], and then reports all entities that are found inside the rectangle. This function is approximate and might return entities that are slightly outside the rectangle, but it will never miss anything inside.  Returns a table of entities. Layer can be set to 1, 2 or 3, where 1 is the inner-most layer.
+
+The raycast() and query() functions can both be given an optional argument that
+specifies the sublayer mask. There are 4 sublayers, their maskvalues are as
+follows:
+Sublayer 1: 1, Sublayer 2: 2, Sublayer 3: 4, Sublayer 4: 8
+By adding the mask values together we can specify which sublayers to search
+in, for example if we are searching in sublayers 2 and 4 we provide a sublayer
+mask of 10. The default mask value is 15 covering all sublayers.
+
+Classes:
+
+== entity - a reference to a principia object == 
+get_id()               - get the unique id
+get_g_id()             - get the g_id (type identifier)
+get_position()         - array with x and y
+get_angle()            - absolute angle 
+get_velocity()         - array with x and y velocity
+get_angular_velocity() - angular velocity
+get_bbox()             - approximate width and height of the object
+
+- get_layer()
+Returns the current layer of the entity. Layer 1 is the inner-most layer, layer 3 is the outer-most.
+
+- local_to_world(x,y)
+Transform point [x, y] from local coordinates to world coordinates. Returns x and y in world coordinates. local_to_world(0,0) is identical to get_position(), local_to_world(1, 0) would return a world point that is to the right of the entity with respect to the entity's angle.
+
+- world_to_local(x, y)
+Transform [x, y] from world coordinates to local coordinates. Opposite of local_to_world(). Returns x and y of the given world point in local coordinates of the entity.
+
+== Sprite Rendering ==
+The 'this' object provides a few sprite rendering functions. Each LuaScript object is given its own 128x128 RGBA texture. This texture is initially set to all white but you can set any texel (texture element) value manually. Best practice is to set the texels you need once the first time the script runs and then never modify the texture again.
+
+- this:set_sprite_texel(u, v, r, g, b, a)
+Set the texel located at [u, v] where u and v is a coordinate between 0 and 127. The bottom left of the texture is [0, 0].
+This function should be called inside a first_run() check to minimize texture bandwidth.
+
+- this:clear_texels()
+Clear all texels to black, 0 alpha.
+
+- this:set_sprite_filtering(n)
+Set the texel interpolation.
+n = 0, disables interpolation
+n = 1, enables linear interpolation
+
+- this:set_sprite_blending(n)
+Set how sprites are rendered.
+n = 0, disable blending (alpha will be unused)
+n = 1, foreground - alpha + background - (1-alpha)
+n = 2, foreground - alpha + background
+
+- this:set_draw_tint(r,g,b,a)
+A color value that will be multiplied by anything drawn by the Lua Script
+object (sprites and lines).
+
+- this:set_draw_z(z)
+Set the drawing Z.
+
+- this:draw_sprite(x, y, angle, width, height, bx, by, tx, ty)
+Draw a sprite at [x, y]. A rectangle of texels will be sampled where [bx, by] is the bottom left of the rectangle and [tx, ty] is the top right.
+For example, to render a sprite at [0, 0] using the full available texture:
+this:draw_sprite(0.0, 0.0, 0.0, 1.0, 1.0, 0, 0, 127, 127)
+
+- this:draw_line(x1, y1, x2, y2, w)
+Draw a line from [x1, y1] to [x2, y2] with line width 'w'. 0.05 is a good
+starting point for the line width.

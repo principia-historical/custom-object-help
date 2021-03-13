@@ -1,0 +1,4 @@
+Plays one of the preset sound effects.
+
+<b><tt>IN0</tt></b>: Activate
+<b><tt>IN1</tt></b>: Volume control

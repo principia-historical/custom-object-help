@@ -1,0 +1,9 @@
+The gearbox allows you to construct gearing mechanics. It has three axles, one input and two outputs. The first output (top) turns the incoming rotation backwards. Both of the two outputs are connected to the same output joint.
+
+Click the configuration button to enter the gearbox configuration screen. This screen allows you to place gears on any of the three axles. The gearbox will automatically detect valid configurations and create one "step" for each valid configuration. A valid configuration is whenever a gear on the incoming axle matches a gear on any of the two outgoing axles.
+
+A list of all valid configurations will be displayed as buttons, click on any button to view the configuration.
+
+Please note that the gears needs to be carefully positioned to allow gear shifting. For example, a big gear on the input axle and a big gear on one of the output axles will prevent the gear from shifting further, since the two gears will collide. By sorting the gears on each axle by size, an optimal number of valid configurations can be found. Once you get the hang of it, you should be able to create at least 6 unique and valid configurations.
+
+The gearbox has two input signal sockets. <b><tt>IN0</tt></b> shifts the gear -1 step and <b><tt>IN1</tt></b> shifts the gear +1 step. The gear is shifted by moving the input axle to the next valid configuration. Use a sparsifier to prevent the gear from being switched too quickly.

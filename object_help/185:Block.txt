@@ -1,0 +1,3 @@
+A piece of block used for terrain or zappable ores.
+
+Adjust the sliders to change size or material.

@@ -1,0 +1,1 @@
+Fixed pivot attached to the wall

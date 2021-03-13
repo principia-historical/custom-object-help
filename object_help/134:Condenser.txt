@@ -1,0 +1,3 @@
+Stores an internal value of the sum of all previous values read from IN0, minus all previous values read from IN1. The internal value is then divided by the maximum value and written to <b><tt>OUT0</tt></b> as a fraction.
+
+This object can be used as a "health meter". Use <b><tt>IN1</tt></b> to decrement the health, and <b><tt>IN0</tt></b> to increment. Wire <b><tt>OUT0</tt></b> to a ceil device and whenever the result is 0.0, all health is gone.

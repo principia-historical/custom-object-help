@@ -1,0 +1,4 @@
+Output the angular displacement of the tiltmeter relative to its standing position.
+
+<b><tt>OUT0</tt></b>: Counter-clockwise rotation. 0.0 is no rotation, 1.0 is 180 degrees.
+<b><tt>OUT1</tt></b>: Clockwise rotation. 0.0 is no rotation, 1.0 is 180 degrees.

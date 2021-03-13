@@ -1,0 +1,6 @@
+This tool allows you to move and attach objects.
+
+Can be used to:
+* Drag an object
+* Connect and attach objects
+* Build ladder steps to jump up from e.g deep caves (click on robot to build)

@@ -1,0 +1,6 @@
+Automatically attaches itself to nearby Magnetic Socket. If connected, the value received from the Magnetic Socket is forwarded to <b><tt>OUT0</tt></b>.
+
+The alternative source (<b><tt>IN0</tt></b>) is used if the plug is not connected to a socket. The value received from <b><tt>IN0</tt></b> will then be output through <b><tt>OUT0</tt></b>. As soon as the plug is connected to a magnetic socket, the alternative source is no longer used until the plug disconnects again.
+
+<b><tt>OUT0</tt></b>: Recevied signal
+<b><tt>IN0</tt></b>: Alternative source

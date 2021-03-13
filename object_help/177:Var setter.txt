@@ -1,0 +1,5 @@
+Store a value and associate it with a name. This value is persistant between playthroughs. Use the config dialog to set the variable name.
+
+Advanced help:
+<b><tt>IN0</tt></b>: Set
+<b><tt>IN1</tt></b>: Value

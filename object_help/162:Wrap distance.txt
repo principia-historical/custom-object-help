@@ -1,0 +1,1 @@
+Outputs the absolute wrapped nearest distance between <b><tt>IN0</tt></b> and <b><tt>IN1</tt></b>. For example, the distance between 0.1 and 0.9 is 0.2.

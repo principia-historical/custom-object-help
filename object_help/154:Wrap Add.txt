@@ -1,0 +1,1 @@
+Output the sum of <b><tt>IN0</tt></b> and <b><tt>IN1</tt></b> to <b><tt>OUT0</tt></b>, and wrap around if the sum is above 1.0. For example, 0.75 + 0.5 = 0.25.

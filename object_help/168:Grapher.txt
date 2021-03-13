@@ -1,0 +1,1 @@
+Forward <b><tt>IN0</tt></b> to <b><tt>OUT0</tt></b> and represent the value from <b><tt>IN0</tt></b> on the display in graph form.

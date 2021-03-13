@@ -1,0 +1,1 @@
+Outputs the square root of <b><tt>IN0</tt></b>. Does not affect binary signals.

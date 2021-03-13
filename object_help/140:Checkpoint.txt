@@ -1,0 +1,5 @@
+An adventure mode object. If the <b><tt>IN0</tt></b> receives a signal above 0.5, this checkpoint is activated. This means if and when the Adventure robot is killed, this is the Checkpoint on which the robot will respawn. The checkpoint can also be activated by having the Adventure robot stepping on it.
+
+<b><tt>IN0</tt></b>: Activate
+<b><tt>OUT0</tt></b>: Outputs a single 1 if the robot respawns on this checkpoint.
+<b><tt>OUT1</tt></b>: Active status. Outputs 1 if this is the current checkpoint in use.

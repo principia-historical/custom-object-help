@@ -1,0 +1,1 @@
+Elastic rubber band. Adjust the sliders to change the reaction lenght and coefficient.

@@ -1,0 +1,4 @@
+Uses suction force to attach itself to objects.
+
+<b><tt>IN0</tt></b>: Activate
+<b><tt>OUT0</tt></b>: Outputs 1 if the suction cup is currently attached to an object

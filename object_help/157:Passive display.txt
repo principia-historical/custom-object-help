@@ -1,0 +1,7 @@
+Displays a matrix of 5x7 lights forming configurable symbols. The current symbol pointer can be increased and decreased using <b><tt>IN1</tt></b> and <b><tt>IN2</tt></b>. <b><tt>IN0</tt></b> controls whether the display is on or off. By default if no cable is connected to <b><tt>IN0</tt></b>, the display is on. By default, the display contains 36 symbols, 0-9 followed by A-Z.
+
+Symbols can be customized by clicking the configuration button.
+
+<b><tt>IN0</tt></b>: ON/OFF (default ON)
+<b><tt>IN1</tt></b>: Increment symbol pointer
+<b><tt>IN2</tt></b>: Decrement symbol pointer

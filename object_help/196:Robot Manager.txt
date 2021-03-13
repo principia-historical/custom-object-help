@@ -1,0 +1,45 @@
+Controls or outputs information about the selected robot.
+
+<b><tt>IN0</tt></b>: Godmode ON/OFF.
+<b><tt>IN1</tt></b>: Speed modifier (0.0-1.0). Only enabled if the cable is plugged in. A value of 0.0 means the robot is unable to walk.
+<b><tt>IN2</tt></b>: Disable action (useful for disabling box mode until certain powerup is enabled).
+<b><tt>IN3</tt></b>: Jump strength multiplier.
+<b><tt>IN4</tt></b>: HP increase (heal), value * 10
+<b><tt>IN5</tt></b>: HP decrease (damage), value * 10
+<b><tt>IN6</tt></b>: Max HP increase, value * 10
+<b><tt>IN7</tt></b>: Max HP decrease, value * 10
+<b><tt>IN8</tt></b>: Weapon damage multiplier 0.0 = No extra damage, 1.0 = 5 times the damage.
+<b><tt>IN9</tt></b>: Toggle robot action.
+<b><tt>IN10</tt></b>: Walk left.
+<b><tt>IN11</tt></b>: Walk right.
+<b><tt>IN12</tt></b>: Stop all movement.
+<b><tt>IN13</tt></b>: Jump.
+<b><tt>IN14</tt></b>: Aim.
+<b><tt>IN15</tt></b>: Attack.
+<b><tt>IN16</tt></b>: Attach to nearest backpack/RC
+<b><tt>IN17</tt></b>: Detach from any backpack/RC
+<b><tt>IN18</tt></b>: Respawn
+<b><tt>IN19</tt></b>: Freeze
+<b><tt>IN20</tt></b>: Toggle roaming (non-adventure robots only).
+<b><tt>IN21</tt></b>: Cycle weapons
+<b><tt>IN22</tt></b>: Cycle factions
+
+<b><tt>OUT0</tt></b>: Weapon arm angle
+<b><tt>OUT1</tt></b>: Tool arm angle
+<b><tt>OUT2</tt></b>: On weapon fire
+<b><tt>OUT3</tt></b>: On tool use (experimental)
+<b><tt>OUT4</tt></b>: Current layer. 0.0 = layer 1, 0.5 = layer 2, 1.0 = layer 3
+<b><tt>OUT5</tt></b>: Head removed
+<b><tt>OUT6</tt></b>: Moving left - User attempting to move left (adventure robot only)
+<b><tt>OUT7</tt></b>: Moving right - User attempting to move right (adventure robot only)
+<b><tt>OUT8</tt></b>: Look dir (left = 0.0, right = 1.0)
+<b><tt>OUT9</tt></b>: dir - Last movement dir (left = 0.0, right = 1.0)
+<b><tt>OUT10</tt></b>: Action active
+<b><tt>OUT11</tt></b>: 1.0 if attached to anything, otherwise 0
+<b><tt>OUT12</tt></b>: Movement left feedback (adventure robot only)
+<b><tt>OUT13</tt></b>: Movement right feedback (adventure robot only)
+<b><tt>OUT14</tt></b>: jump feedback (adventure robot only)
+<b><tt>OUT15</tt></b>: aim feedback (adventure robot only)
+<b><tt>OUT16</tt></b>: layerup feedback (adventure robot only)
+<b><tt>OUT17</tt></b>: layerdown feedback (adventure robot only)
+<b><tt>OUT18</tt></b>: action feedback (adventure robot only)

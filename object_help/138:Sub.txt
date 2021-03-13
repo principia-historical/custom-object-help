@@ -1,0 +1,1 @@
+Subtract a constant value given from the on-screen slider from <b><tt>IN0</tt></b> and output the result to <b><tt>OUT0</tt></b>.

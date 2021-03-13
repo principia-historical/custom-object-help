@@ -1,0 +1,6 @@
+Automatically attaches itself to nearby Magnetic Plug.
+
+If magnetically connected, the input signal (<b><tt>IN0</tt></b>) is sent to the connected magnetic plug. If no magnetic plug is connected, the signal is instead sent to <b><tt>OUT0</tt></b>. When a magnetic socket is connected, 0 is always sent to the alternative output (<b><tt>OUT0</tt></b>).
+
+<b><tt>IN0</tt></b>: Input signal
+<b><tt>OUT0</tt></b>: Alternative output

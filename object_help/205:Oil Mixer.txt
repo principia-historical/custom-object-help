@@ -1,0 +1,13 @@
+Works like factory. Click to create oils.
+
+<b><tt>IN0</tt></b>: Add to queue
+<b><tt>IN1</tt></b>: What to build
+<b><tt>IN2</tt></b>: Absorb items without interaction
+<b><tt>IN3</tt></b>: Conveyor ON/OFF
+<b><tt>IN4</tt></b>: Conveyor invert direction
+
+<b><tt>OUT0</tt></b>: Something was emitted
+<b><tt>OUT1</tt></b>: Something was absorbed
+<b><tt>OUT2</tt></b>: Error (not enough material)
+<b><tt>OUT3</tt></b>: Current build progress
+<b><tt>OUT4</tt></b>: Binary, if something is building

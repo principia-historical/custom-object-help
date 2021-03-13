@@ -1,0 +1,3 @@
+Bot that lob bombs toward enemies. Watch out!
+
+Can be configured with the configuration button.

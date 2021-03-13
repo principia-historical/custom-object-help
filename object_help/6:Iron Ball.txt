@@ -1,0 +1,3 @@
+A heavy ball with very high bounciness. Low friction.
+
+Sublayer depth: 2

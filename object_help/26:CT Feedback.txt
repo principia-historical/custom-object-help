@@ -1,0 +1,17 @@
+The CT Feedback is an extended version of CT Mini with 3 output feedback slots. CT Feedback supports any kind of motor.
+
+Sockets:
+<b><tt>OUT0</tt></b>: Motor interface, blue cable
+<b><tt>OUT1</tt></b>: Speed feedback (optional)
+<b><tt>OUT2</tt></b>: Force/torque feedback (optional)
+<b><tt>OUT3</tt></b>: Error feedback (optional)
+<b><tt>IN1</tt></b>: Speed control (optional, default = 1)
+<b><tt>IN2</tt></b>: Reverse (optional, default = 0)
+<b><tt>IN3</tt></b>: Speed/force tradeoff control (optional, default = as defined by slider)
+<b><tt>IN0</tt></b>: Power
+
+The current speed of the motor is reported through <b><tt>OUT1</tt></b>. The reported speed is a percentage of the maximum speed of the motor, where 0 means no movement and 1 means the motor is moving at its maximum speed.
+
+The force or torque being applied by the motor is reported in a similar manner through <b><tt>OUT2</tt></b>. It is a value between 0 and 1 where 1 is the maximum force or torque attainable by the motor.
+
+The error feedback (<b><tt>OUT3</tt></b>) outputs exactly 1 when an "error" is detected. Errors are due to external forces that prevent the motor from moving or causes the motor to move in the wrong direction. Note that this signal can be very noisy when the motor is stuck. It is a constant 1 if the motor is moving in the wrong direction.
