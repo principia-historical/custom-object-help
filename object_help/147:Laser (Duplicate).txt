@@ -1,0 +1,1 @@
+Unused duplicate Laser object. It is unknown if this object has any differences from the used object.
