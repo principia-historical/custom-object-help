@@ -1,0 +1,3 @@
+Save the current state of the level. It can be later returned by the player in the Play section of the main menu.
+
+<b><tt>IN0</tt></b>: Activate
