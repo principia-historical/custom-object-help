@@ -1,6 +1,7 @@
-Automatically attaches itself to nearby Magnetic Socket. If connected, the value received from the Magnetic Socket is forwarded to <b><tt>OUT0</tt></b>.
+The Magnetic Plug is an object that can attract Magnetic Sockets. When two magnetic objects are connected, the plug can transfer signals to the socket.
 
-The alternative source (<b><tt>IN0</tt></b>) is used if the plug is not connected to a socket. The value received from <b><tt>IN0</tt></b> will then be output through <b><tt>OUT0</tt></b>. As soon as the plug is connected to a magnetic socket, the alternative source is no longer used until the plug disconnects again.
+If the plug is not connected to a socket, the IN0 signal will be sent to the alternative output, <b><tt>OUT1</tt></b>.
 
-<b><tt>OUT0</tt></b>: Recevied signal
-<b><tt>IN0</tt></b>: Alternative source
+<b><tt>IN0</tt></b>: Input signal
+<b><tt>OUT0</tt></b>: Status (is plug connected to socket?)
+<b><tt>OUT1</tt></b>: Alternative output
