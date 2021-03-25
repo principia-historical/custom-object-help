@@ -1,0 +1,1 @@
+Single ladder step. Can be produced by the robot's Builder tool at the cost of 2 wood, and is extremely useful for navigating in caves.
