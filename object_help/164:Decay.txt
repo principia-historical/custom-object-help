@@ -1,6 +1,5 @@
 Adds any non-zero input value to its internal value. Each tick its internal value is multiplied by the amount given in the on-screen slider.
 
-Advanced help:
 If <b><tt>IN0</tt></b> is non-zero, add it to its internal value (<span font_family="monospace" background="white">cur_value</span> += <b><tt>IN0</tt></b>). Each tick, multiply <span font_family="monospace" background="white">cur_value</span> by the <span font_family="monospace" background="white">decay_rate</span> set with the on-screen slider. <span font_family="monospace" background="white">cur_value</span> is clamped between 0 and 1.
 
 <b><big>Socket information:</big></b>

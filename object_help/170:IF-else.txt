@@ -1,6 +1,5 @@
 If binary value of <b><tt>IN1</tt></b> is 1.0, out the unmodified value of <b><tt>IN0</tt></b> to <b><tt>OUT1</tt></b>, else out it to <b><tt>OUT0</tt></b>.
 
-Advanced help:
 The input IN1 is binary, its value is rounded so any value above 0.5 is equal to 1.
 
 <b><big>Socket information:</big></b>
