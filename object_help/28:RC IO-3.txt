@@ -1,5 +1,6 @@
 Smaller version of RC MONSTRO. See the object description of RC MONSTRO for more info.
 
+<b><big>Socket information:</big></b>
 <b><tt>OUT0</tt></b>-2  Raw signal
 <b><tt>OUT3</tt></b>-5  Focus signal (0 or 1)
 

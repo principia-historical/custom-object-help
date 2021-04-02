@@ -1,4 +1,4 @@
 Intended to make roaming robots of the specified faction guard the object.
 
-Sockets:
+<b><big>Socket information:</big></b>
 <b><tt>IN0</tt></b>: Activate guard point (Defaults to disabled when no cable is inserted)

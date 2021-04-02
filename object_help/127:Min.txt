@@ -1,6 +1,6 @@
 Output the unmodified smallest value of <b><tt>IN0</tt></b> or <b><tt>IN1</tt></b> to <b><tt>OUT0</tt></b>.
 
-Advanced help:
+<b><big>Socket information:</big></b>
 <b><tt>IN0</tt></b>: Value A
 <b><tt>IN1</tt></b>: Value B
 <b><tt>OUT0</tt></b>: IF (A < B) THEN A ELSE B

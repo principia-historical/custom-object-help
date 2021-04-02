@@ -2,13 +2,6 @@ Control panel with support for 8 widgets, capable of overriding signals and rece
 
 Each widget is connected to 2 output slots and 3 input slots, i.e. any widget 'x' is connected to <b><tt>OUTx</tt></b>, <b><tt>OUT(x+8)</tt></b>, <b><tt>INx</tt></b>, <b><tt>IN(x+8)</tt></b> and <b><tt>IN(x+16)</tt></b>.
 
-<b><tt>OUT0</tt></b>-7  Raw signal
-<b><tt>OUT8</tt></b>-15 Focus signal (0 or 1)
-
-<b><tt>IN0</tt></b>-7   Feedback/report current value
-<b><tt>IN8</tt></b>-15  Override value
-<b><tt>IN16</tt></b>-23 Override enabled/disabled
-
 * <b><tt>OUT0</tt></b>-7
 Raw signal, same as any other RC object. If override mode is enabled, the override value is reported here instead.
 
@@ -26,8 +19,7 @@ Set the override-value. The value received here is the alternative output value 
 * <b><tt>IN16</tt></b> to <b><tt>IN23</tt></b>
 Toggles override-mode and selects which output signal to use. A binary value of 0 means the control panel output value is used (from widgets on the screen), and a binary value of 1 means the widget is ignored and the value is overriden and read from <b><tt>IN8-15</tt></b> instead.
 
-* EXAMPLES
-
+<b><big>Examples</big></b>
 Example 1) Toggle button
 We want a button that each time pressed changes its state. We want the state to be reflected on the visible button. Add a button widget to <b><tt>OUT0</tt></b>, and connect <b><tt>OUT0</tt></b> to a Sparsifier. Then connect the Sparsifier to a Toggler. The output of the Toggler is the value we want. Send the toggler output to <b><tt>IN0</tt></b> (feedback value) and also your own electronics. You now have a toggle button.
 
@@ -36,3 +28,11 @@ Add a slider widget to <b><tt>OUT0</tt></b>. Connect <b><tt>OUT8</tt></b> (focus
 
 Example 3) Slider with springy Recoil
 We want to create a slider with a recoil effect that acts like a spring and does not instantly go back to 0. Add a slider widget to <b><tt>OUT0</tt></b>. Connect <b><tt>OUT8</tt></b> (focus) to an Inverter and then to <b><tt>IN16</tt></b> (Override enable/disable). Connect <b><tt>OUT0</tt></b> (raw signal) to your own electronics and separately to a Square component. Connect the Square component to <b><tt>IN8</tt></b> (Override value).
+
+<b><big>Socket information:</big></b>
+<b><tt>OUT0</tt></b>-7  Raw signal
+<b><tt>OUT8</tt></b>-15 Focus signal (0 or 1)
+
+<b><tt>IN0</tt></b>-7   Feedback/report current value
+<b><tt>IN8</tt></b>-15  Override value
+<b><tt>IN16</tt></b>-23 Override enabled/disabled

@@ -2,6 +2,7 @@ Controls the HP of a robot.
 
 The robots current HP can be read from <b><tt>OUT0</tt></b>. To set the HP of a robot, set <b><tt>IN0</tt></b> to 1.0 and <b><tt>IN1</tt></b> to the desired HP percentage.
 
+<b><big>Socket information:</big></b>
 <b><tt>IN0:</tt></b> Activate
 <b><tt>IN1:</tt></b> New HP
 <b><tt>OUT0:</tt></b> Current HP

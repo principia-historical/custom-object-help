@@ -6,7 +6,7 @@ While the CT Servo is compatible with all kinds of motors, for best results you 
 
 The CT Servo outputs two kinds of feedback data through <b><tt>OUT1</tt></b> and <b><tt>OUT2</tt></b>.
 
-Sockets:
+<b><big>Socket information:</big></b>
 <b><tt>OUT0</tt></b>: Motor interface, blue cable
 <b><tt>OUT1</tt></b>: Angle/Translation feedback
 <b><tt>OUT2</tt></b>: Torque/force feedback

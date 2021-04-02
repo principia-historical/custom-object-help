@@ -1,3 +1,4 @@
 Same characteristics as a Rocket, but with a smaller engine capacity. Activated by default with a thrust multiplier of 1 if no cable is connected.
 
+<b><big>Socket information:</big></b>
 <b><tt>IN0</tt></b>: Thrust multiplier

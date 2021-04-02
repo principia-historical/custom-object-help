@@ -2,6 +2,7 @@ Displays a matrix of 5x7 lights forming configurable symbols. The current symbol
 
 Symbols can be customized by clicking the configuration button.
 
+<b><big>Socket information:</big></b>
 <b><tt>IN0</tt></b>: ON/OFF (default ON)
 <b><tt>IN1</tt></b>: Increment symbol pointer
 <b><tt>IN2</tt></b>: Decrement symbol pointer

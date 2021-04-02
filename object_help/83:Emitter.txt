@@ -9,5 +9,6 @@ If something is obstructing the emitter, the emitter will fail to emit.
 Objects that can be emitted:
 Ball, metal ball, cylinder, interactive cylinder, interactive box, interactive ball, any type of robot, corner, dummy, land mine, bomb, wooden box, weight.
 
+<b><big>Socket information:</big></b>
 <b><tt>IN0</tt></b>: Emit signal
 <b><tt>OUT0</tt></b>: 1.0 when an object was emitted.

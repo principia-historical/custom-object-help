@@ -1,6 +1,6 @@
 The CT Feedback is an extended version of CT Mini with 3 output feedback slots. CT Feedback supports any kind of motor.
 
-Sockets:
+<b><big>Socket information:</big></b>
 <b><tt>OUT0</tt></b>: Motor interface, blue cable
 <b><tt>OUT1</tt></b>: Speed feedback (optional)
 <b><tt>OUT2</tt></b>: Force/torque feedback (optional)

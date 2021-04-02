@@ -2,7 +2,7 @@ Works like a Y-splitter but with more outputs.
 
 Forwards the value from its input port to all its output ports.
 
-Advanced help:
+<b><big>Socket information:</big></b>
 <b><tt>IN0</tt></b>: Value
 <b><tt>OUT0</tt></b>: Unmodified value of IN0
 <b><tt>OUT1</tt></b>: Unmodified value of IN0

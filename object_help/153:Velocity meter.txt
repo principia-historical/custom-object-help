@@ -1,4 +1,5 @@
 Reports the velocity if itself as an angle and a speed fraction.
 
+<b><big>Socket information:</big></b>
 <b><tt>OUT0</tt></b>: Angle
 <b><tt>OUT1</tt></b>: Speed fraction

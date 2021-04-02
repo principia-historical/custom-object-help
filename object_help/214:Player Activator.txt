@@ -2,6 +2,6 @@ Sets the target as player when receiving a signal.
 
 Click the crosshair button to set a target as player.
 
-Advanced help:
+<b><big>Socket information:</big></b>
 <b><tt>IN0</tt></b>: Activate
 <b><tt>OUT0</tt></b>: Outputs status

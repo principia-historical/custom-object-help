@@ -2,4 +2,5 @@ Detects and outputs a signal when a key is pressed.
 
 Click the configuration button to select a key.
 
+<b><big>Socket information:</big></b>
 <b><tt>OUT0</tt></b>: Outputs a signal when the selected key is pressed

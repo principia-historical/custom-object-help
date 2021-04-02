@@ -2,6 +2,7 @@ The Magnetic Plug is an object that can attract Magnetic Sockets. When two magne
 
 If the plug is not connected to a socket, the IN0 signal will be sent to the alternative output, <b><tt>OUT1</tt></b>.
 
+<b><big>Socket information:</big></b>
 <b><tt>IN0</tt></b>: Input signal
 <b><tt>OUT0</tt></b>: Status (is plug connected to socket?)
 <b><tt>OUT1</tt></b>: Alternative output

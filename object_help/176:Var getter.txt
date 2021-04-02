@@ -1,4 +1,4 @@
 Get a value associated with the specified name. The value is persistant between playthroughs. Use the config dialog to set the variable name.
 
-Advanced help:
+<b><big>Socket information:</big></b>
 <b><tt>OUT0</tt></b>: Value

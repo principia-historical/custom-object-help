@@ -2,6 +2,7 @@ Get the status details for a level in the current package. Use the configuration
 
 To check absolute completion status, please wire <b><tt>OUT0</tt></b> to a floor component.
 
+<b><big>Socket information:</big></b>
 <b><tt>OUT0</tt></b>: Percent completed. 1.0 if the level has been completed, otherwise top_score/final_score or 0.0.
 <b><tt>OUT1</tt></b>: Unlock status. Returns 1.0 if the level is unlocked according to the package unlock count.
 <b><tt>OUT2</tt></b>: 1.0 if this level was the last played level before the current one.

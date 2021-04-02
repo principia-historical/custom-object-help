@@ -2,5 +2,6 @@
 
 A crane that can be used to hold big things you are building.
 
+<b><big>Socket information:</big></b>
 <b><tt>IN0</tt></b>: State control
 <b><tt>OUT0</tt></b>: Current state

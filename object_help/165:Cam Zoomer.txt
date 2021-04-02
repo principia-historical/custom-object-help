@@ -1,3 +1,4 @@
 Zooms the players camera to the level specified with the first slider.
 
+<b><big>Socket information:</big></b>
 <b><tt>IN0</tt></b>: Activate. (On by default if no plug present)

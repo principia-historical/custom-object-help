@@ -1,4 +1,5 @@
 Any object resting on the conveyor belt will be moved according to the conveyor's speed.
 
+<b><big>Socket information:</big></b>
 <b><tt>IN0</tt></b>: Speed multiplier
 <b><tt>IN1</tt></b>: Invert direction

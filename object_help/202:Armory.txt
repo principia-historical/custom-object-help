@@ -2,6 +2,7 @@
 
 Works like factory. Click to build weapons and tools.
 
+<b><big>Socket information:</big></b>
 <b><tt>IN0</tt></b>: Add to queue
 <b><tt>IN1</tt></b>: What to build
 <b><tt>IN2</tt></b>: Absorb items without interaction

@@ -1,5 +1,6 @@
 Stores a value in its buffer which is output to <b><tt>OUT0</tt></b>. The value is read from <b><tt>IN1</tt></b>, and a signal from <b><tt>IN0</tt></b> sets the buffer value to the value read from <b><tt>IN0</tt></b>.
 
-<b><tt>OUT0</tt></b>: The buffer value
+<b><big>Socket information:</big></b>
 <b><tt>IN0</tt></b>: Set, a signal above 0.5 sets the buffer value to the <b><tt>IN1</tt></b> value.
 <b><tt>IN1</tt></b>: Input, the value which will be stored in the buffer if <b><tt>IN0</tt></b> is true.
+<b><tt>OUT0</tt></b>: The buffer value

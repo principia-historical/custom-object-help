@@ -4,4 +4,5 @@ Slow down time according to the input value.
 
 Time can NOT be stopped completely since that would stop all electronics from running and prevent you from starting time again. An epsilon value of 0.01 is added as the minimum time speed.
 
+<b><big>Socket information:</big></b>
 <b><tt>IN0</tt></b>: Multiply time speed by (1.0-<b><tt>IN0</tt></b>) + EPS

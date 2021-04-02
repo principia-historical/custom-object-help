@@ -1,5 +1,6 @@
 Controls or outputs information about the selected robot.
 
+<b><big>Socket information:</big></b>
 <b><tt>IN0</tt></b>: Godmode ON/OFF.
 <b><tt>IN1</tt></b>: Speed modifier (0.0-1.0). Only enabled if the cable is plugged in. A value of 0.0 means the robot is unable to walk.
 <b><tt>IN2</tt></b>: Disable action (useful for disabling box mode until certain powerup is enabled).

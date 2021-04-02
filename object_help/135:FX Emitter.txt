@@ -7,5 +7,6 @@ Magic - Sparks of magic
 Break - A very subtle breaking effect.
 Destroy connections - Destroys any already-destructible objects connected to the FX emitter, subject to the Radius and Count variables.
 
+<b><big>Socket information:</big></b>
 <b><tt>IN0</tt></b>: Activate
 <b><tt>OUT0</tt></b>: Outputs a 1 when the effects have finished.

@@ -1,4 +1,5 @@
 Can be used to adjust the volume of a sound or e.g replace it with a different sound using a synthesizer.
 
+<b><big>Socket information:</big></b>
 <b><tt>IN0</tt></b>: Volume
 <b><tt>OUT0</tt></b>: Outputs a signal when the selected sound type is played

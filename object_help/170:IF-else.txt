@@ -3,6 +3,7 @@ If binary value of <b><tt>IN1</tt></b> is 1.0, out the unmodified value of <b><t
 Advanced help:
 The input IN1 is binary, its value is rounded so any value above 0.5 is equal to 1.
 
+<b><big>Socket information:</big></b>
 <b><tt>IN0</tt></b>: Value
 <b><tt>IN1</tt></b>: Condition
 <b><tt>OUT0</tt></b>: IF NOT IN1 THEN IN0 ELSE 0

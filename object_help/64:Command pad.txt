@@ -1,6 +1,6 @@
 When a Robot steps on the command pad, he will receive and obey the given message. <b><tt>IN0</tt></b>: Activate, by default on if no cable is connected.
 
-Available commands:
+<b><big>Available commands:</big></b>
 <b><tt>Stop</tt></b>: Stops the robot.
 <b><tt>Start/Stop toggle</tt></b>: If <b><tt>IN0</tt></b> is connected and is <b><tt>0</tt></b>, stop the robot. If <b><tt>IN0</tt></b> is <b><tt>1</tt></b>, start the robot. If <b><tt>IN0</tt></b> is not connected, toggle the robots current start or stop value.
 <b><tt>Left</tt></b>: Changes the robots direction to <b>left</b>.

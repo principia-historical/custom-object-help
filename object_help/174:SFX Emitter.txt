@@ -1,4 +1,5 @@
 Plays one of the preset sound effects.
 
+<b><big>Socket information:</big></b>
 <b><tt>IN0</tt></b>: Activate
 <b><tt>IN1</tt></b>: Volume control

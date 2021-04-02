@@ -4,4 +4,5 @@ Properties:
 Frequency Hz: Determines how fast the signal oscillates.
 Phase: Determines where in the sine wave it begins.
 
+<b><big>Socket information:</big></b>
 <b><tt>OUT0</tt></b>: Outputs the current value of the oscillation.

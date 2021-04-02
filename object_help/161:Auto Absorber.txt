@@ -1,3 +1,4 @@
 The auto absorber will follow all connections it can find and absorb everything reachable. This is useful for absorbing big complex objects in one go.
 
+<b><big>Socket information:</big></b>
 <b><tt>IN0</tt></b>: Activate absorber

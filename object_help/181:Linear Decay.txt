@@ -4,5 +4,6 @@ Advanced help:
 If <b><tt>IN0</tt></b> is non-zero, add it to its internal value (<span font_family="monospace" background="white">cur_value</span> += <b><tt>IN0</tt></b>). Each tick, subtract <span font_family="monospace" background="white">cur_value</span> by the <span font_family="monospace" background="white">decay_value</span> set with the on-screen slider.
 <span font_family="monospace" background="white">cur_value</span> is clamped between 0 and 1.
 
+<b><big>Socket information:</big></b>
 <b><tt>IN0</tt></b>: Set value
 <b><tt>OUT0</tt></b>: <span font_family="monospace" background="white">cur_value</span>

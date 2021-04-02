@@ -2,4 +2,5 @@ Outputs a total of all objects pushing/pressing on the sensor.
 
 Use the Threshold slider to set the maximum pressure value. This will be the value corresponding to 1.0 through <b><tt>OUT0</tt></b>.
 
+<b><big>Socket information:</big></b>
 <b><tt>OUT0</tt></b>: Pressure value between 0.0 and 1.0

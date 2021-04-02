@@ -1,4 +1,5 @@
 This device reports the current angular velocity of itself.
 
+<b><big>Socket information:</big></b>
 <b><tt>OUT0</tt></b>: Counter-clockwise angular velocity
 <b><tt>OUT1</tt></b>: Clockwise angular velocity

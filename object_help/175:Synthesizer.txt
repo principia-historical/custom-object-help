@@ -16,5 +16,6 @@ Volume Vibrato Hz - Specifies at what speed the volume vibrato should be applied
 Volume Vibrato Extent - How much the volume will shift.
 Pulse Width - Only used with the Pulse Wave. Specifies the width of the pulse. The width of a square wave is 0.5 (50%) for reference.
 
+<b><big>Socket information:</big></b>
 <b><tt>IN0</tt></b>: Volume (1.0 by default)
 <b><tt>IN1</tt></b>: Frequency shift. (base frequency + (peak frequency - base frequency) * <b><tt>IN1</tt></b>)

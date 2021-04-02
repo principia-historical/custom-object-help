@@ -2,4 +2,5 @@ Focus the camera on an object. Use the object selection to specify which object 
 
 The targeter is activated when a value of 1.0 is read through <b><tt>IN0</tt></b>, or automatically by default if no plug is connected.
 
+<b><big>Socket information:</big></b>
 <b><tt>IN0</tt></b>: Activate

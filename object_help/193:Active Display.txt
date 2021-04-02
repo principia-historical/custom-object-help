@@ -4,6 +4,7 @@ This display is active and updates its current symbol every tick according to th
 
 Symbols can be customized by clicking the configuration button.
 
+<b><big>Socket information:</big></b>
 <b><tt>IN0</tt></b>: ON/OFF (default ON)
 <b><tt>IN1</tt></b>: Set symbol
 <b><tt>OUT0</tt></b>: Current symbol
