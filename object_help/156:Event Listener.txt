@@ -1,10 +1,10 @@
 Listens to the event specified with the config menu and outputs a 1 to <b><tt>OUT0</tt></b> whenever the event occured.
 
 Available events:
-Player die - The adventure robot is killed.
-Enemy die - Any robot other than the adventure robot is killed.
-Interactive object destroyed - Any interactive object is destroyed.
-Player respawn - The adventure robot respawns.
-Touch/Mouse click - The player clicks somewhere on the screen.
-Touch/Mouse release - The player releases that click.
-Any absorber activated - As specified, when any absorber on the level is activated.
+* (0) Player die - The adventure robot is killed.
+* (1) Enemy die - Any robot other than the adventure robot is killed.
+* (2) Interactive object destroyed - Any interactive object is destroyed.
+* (3) Player respawn - The adventure robot respawns.
+* (4) Touch/Mouse click - The player clicks somewhere on the screen.
+* (5) Touch/Mouse release - The player releases that click.
+* (6) Any absorber activated - As specified, when any absorber on the level is activated.
