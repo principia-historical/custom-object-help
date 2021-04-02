@@ -1,7 +1,8 @@
 Outputs 1 when exactly one of its input is 1.
 
-Advanced help:
-Binary device. If a value of 1 is read from <b><tt>IN0</tt></b> or <b><tt>IN1</tt></b>, but not from both at the same time, the XOR gate outputs 1. Otherwise it outputs 0. Since this is a binary device, the input value is rounded so any value above 0.5 is equal to 1.
+The XOR gate is a binary device. If a value of 1 is read from <b><tt>IN0</tt></b> or <b><tt>IN1</tt></b>, but not from both at the same time, the XOR gate outputs 1. Otherwise it outputs 0. Since this is a binary device, the input value is rounded so any value above 0.5 is equal to 1.
+
+<b><big>Socket information:</big></b>
 <b><tt>IN0</tt></b>: Value A
 <b><tt>IN1</tt></b>: Value B
 <b><tt>OUT0</tt></b>: A XOR B
