@@ -1,1 +1,6 @@
 Electronically controlled resistor. Use IN1 to control the resistance.
+
+<b><big>Socket information:</big></b>
+<b><tt>IN0</tt></b>: Incoming power
+<b><tt>IN1</tt></b>: Amount of resistance
+<b><tt>OUT0</tt></b>: Outgoing power
