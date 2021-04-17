@@ -1,3 +1,7 @@
 If the input value is anything other than exactly 0, output 1.
 
 Any raw signal other than exactly 0.0 is treated as 1.0. For example, 0.00001 is treated as 1.0.
+
+<b><big>Socket information:</big></b>
+<b><tt>IN0</tt></b>: Input signal
+<b><tt>OUT0</tt></b>: Result of a ceil operation to <b><tt>IN0</tt></b>

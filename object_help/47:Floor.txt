@@ -1,3 +1,7 @@
 If the input value is anything other than exactly 1, output 0.
 
 Any raw signal other than exactly 1.0 is treated as 0.0. For example, 0.99999999 is treated as 0.0. It basically discards the fractional part of a raw signal.
+
+<b><big>Socket information:</big></b>
+<b><tt>IN0</tt></b>: Input signal
+<b><tt>OUT0</tt></b>: Result of a floor operation to <b><tt>IN0</tt></b>
