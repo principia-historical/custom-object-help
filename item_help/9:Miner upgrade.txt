@@ -1,1 +1,1 @@
-Currently unused (BETA)
+Item with the model of an Oil item, but completely blue. Can be absorbed by the robot by putting it close with the builder, but it does nothing.
