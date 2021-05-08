@@ -1,5 +1,5 @@
 # custom-object-help
-Custom object and item help text files for Principia, intended to be bundled with 1.5.1.1.
+Custom object and item help text files for Principia, intended to be bundled with 1.5.2.
 
 ## Installing
 A Github action has been set up that combines the text files on each new commit. To download the latest commit, go to the **Actions** page for this repository, select the newest workflow run and download the `combined-help-files` artifact. It is an archive containing two files, `object_help.txt` and `item_help.txt`.
