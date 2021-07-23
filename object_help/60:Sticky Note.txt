@@ -1,1 +1,3 @@
-Sticky note with custom text, place them on the wall to add hints to other players. Click the configuration button to modify the text on the sticky note. You can also specify vertical and horizontal alignment of the text, and the text size.
+Sticky note with custom text, place them on the wall to add hints to other players. Click the configuration button to modify the text on the sticky note.
+
+Sticky notes are limited to 7 sticky notes in a level. Adding any more through level hacking will crash the game.
