@@ -7,7 +7,7 @@ When a Robot steps on the command pad, he will receive and obey the given messag
 <b><tt>Right</tt></b>: Changes the robots direction to <b>right</b>.
 <b><tt>Left/Right toggle</tt></b>: Toggles the robot direction.
 <b><tt>Jump</tt></b>: Commands the robot to jump. Slider sets with what strength the robot jumps.
-<b><tt>Aim</tt></b>: 
+<b><tt>Aim</tt></b>: Commands the robot to aim its weapon in a particular angle.
 <b><tt>Attack</tt></b>: Commands the robot to attack.
 <b><tt>Layer up</tt></b>: Commands the robot to move one layer up.
 <b><tt>Layer down</tt></b>: Commands the robot to move one layer down.
