@@ -14,4 +14,4 @@ When a Robot steps on the command pad, he will receive and obey the given messag
 <b><tt>Increase speed</tt></b>: Commands the robot to increase its speed depending on the slider value.
 <b><tt>Decrease speed</tt></b>: Commands the robot to decrease its speed depending on the slider value.
 <b><tt>Set speed</tt></b>: Sets the robots speed depending on the slider value.
-<b><tt>Full health</tt></b>: Gives the robot full health.
+<b><tt>Full health</tt></b>: Gives the robot full health. Has the same texture as the Goal object, which might make the player confuse it with a Goal object.

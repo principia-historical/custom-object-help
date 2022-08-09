@@ -17,7 +17,7 @@ def combine(diry):
 		for file in filelist:
 			f.write(file + "\n")
 			with open("%s/%s.txt" % (diry, file), "r") as f2:
-				f.write(f2.read())
+				f.write(f2.read().rstrip())
 			f.write("\n-----\n")
 
 def main():
