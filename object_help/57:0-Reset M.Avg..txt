@@ -1,8 +1,8 @@
 Identical to Moving Average, but resets itself if an input signal of exactly 0 is received:
 
-<span font_family="monospace" background="white">
+<span font_family="monospace">
 I: = / x > 0 : xa + I(1-a)
      \ x = 0 : 0
 </span>
 
-Where <span font_family="monospace" background="white">x</span> is the input signal, <span font_family="monospace" background="white">I</span> is the internal value and <span font_family="monospace" background="white">a</span> is a weight factor.
+Where <span font_family="monospace">x</span> is the input signal, <span font_family="monospace">I</span> is the internal value and <span font_family="monospace">a</span> is a weight factor.

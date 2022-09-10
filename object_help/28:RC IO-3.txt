@@ -3,7 +3,6 @@ Smaller version of RC MONSTRO. See the object description of RC MONSTRO for more
 <b><big>Socket information:</big></b>
 <b><tt>OUT0</tt></b>-2  Raw signal
 <b><tt>OUT3</tt></b>-5  Focus signal (0 or 1)
-
 <b><tt>IN0</tt></b>-2   Feedback/report current value
 <b><tt>IN3</tt></b>-5   Override value
 <b><tt>IN6</tt></b>-8   Override enabled/disabled

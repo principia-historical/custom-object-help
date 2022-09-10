@@ -1,4 +1,4 @@
-Small emitter that can be attached to objects. 
+Small emitter that can be attached to objects.
 
 Objects that can be emitted:
 Ball, metal ball, corner, land mine, bomb, interactive ball.
@@ -7,4 +7,4 @@ The mini emitter can also emit Interactive Box and the wooden Box, but only if t
 
 <b><big>Socket information:</big></b>
 <b><tt>IN0</tt></b>: Emit signal
-<b><tt>OUT0</tt></b>: 1.0 when an object was emitted.
+<b><tt>OUT0</tt></b>: 1.0 when an object was emitted

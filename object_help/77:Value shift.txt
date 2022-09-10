@@ -1,1 +1,1 @@
-Add a constant value to IN0 and wrap around. This essentially "shifts" where 0 and 1 is.
+Add a constant value to <b><tt>IN0</tt></b> and wrap around. This essentially "shifts" where 0 and 1 is.

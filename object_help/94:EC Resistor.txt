@@ -1,4 +1,4 @@
-Electronically controlled resistor. Use IN1 to control the resistance.
+Electronically controlled resistor. Use <b><tt>IN1</tt></b> to control the resistance.
 
 <b><big>Socket information:</big></b>
 <b><tt>IN0</tt></b>: Incoming power

@@ -1,4 +1,4 @@
-Inverts <b><tt>IN0</tt></b> and writes it to <b><tt>OUT0</tt></b>. If the input signal is raw, <span font_family="monospace" background="white">1-<b>IN0</b></span> is written to <b><tt>OUT0</tt></b>.
+Inverts <b><tt>IN0</tt></b> and writes it to <b><tt>OUT0</tt></b>. If the input signal is raw, 1 - <b><tt>IN0</tt></b> is written to <b><tt>OUT0</tt></b>.
 
 <b><big>Socket information:</big></b>
 <b><tt>IN0</tt></b>: Input signal

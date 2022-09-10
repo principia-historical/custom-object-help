@@ -3,4 +3,4 @@ Outputs a random value between 0.0 and 1.0 to <b><tt>OUT0</tt></b>.
 You can use a Memory object to save a single random value.
 
 <b><big>Socket information:</big></b>
-<b><tt>OUT0</tt></b>: Random value between 0.0-1.0.
+<b><tt>OUT0</tt></b>: Random value between 0.0-1.0

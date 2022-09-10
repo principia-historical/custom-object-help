@@ -1,6 +1,6 @@
 Whenever a bit of 1 is read from <b><tt>IN0</tt></b>, the output stream is toggled.
 
-Example:
-<span font_family="monospace" background="white">0001001000010</span> -> <span font_family="monospace" background="white">0001110000011</span>
+<b>Example:</b>
+<span font_family="monospace">0001001000010</span> -> <span font_family="monospace">0001110000011</span>
 
 Use in combination with the sparsifier and the effect on control panel buttons is a "checkbox" that can be toggled on/off.

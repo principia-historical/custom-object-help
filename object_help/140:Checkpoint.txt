@@ -2,5 +2,5 @@ An adventure mode object. If the <b><tt>IN0</tt></b> receives a signal above 0.5
 
 <b><big>Socket information:</big></b>
 <b><tt>IN0</tt></b>: Activate
-<b><tt>OUT0</tt></b>: Outputs a single 1 if the robot respawns on this checkpoint.
-<b><tt>OUT1</tt></b>: Active status. Outputs 1 if this is the current checkpoint in use.
+<b><tt>OUT0</tt></b>: Outputs a single 1 if the robot respawns on this checkpoint
+<b><tt>OUT1</tt></b>: Active status. Outputs 1 if this is the current checkpoint in use

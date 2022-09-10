@@ -1,4 +1,4 @@
-Manages the global gravity. Use IN0 and IN1 to set the gravity based on angle and force. Modify the gravity multiplier with IN2.
+Manages the global gravity. Use <b><tt>IN0</tt></b> and <b><tt>IN1</tt></b> to set the gravity based on angle and force. Modify the gravity multiplier with IN2.
 
 <b><big>Socket information:</big></b>
 <b><tt>IN0</tt></b>: Angle

@@ -1,10 +1,10 @@
 A simple motor that is good for simple electronics. Power this motor by connecting it to a power source (white cable). To control its speed or on/off state, you can also connect it to a signal cable (red cable).
 
-<b><big>Characteristics:</big></b>
+Characteristics:
 * High maximum speed
 * Low torque
 * No engine braking
 
 <b><big>Socket information:</big></b>
-<b><tt>IN0</tt></b>: TODO
-<b><tt>OUT0</tt></b>: TODO
+<b><tt>IN0</tt></b>: Voltage
+<b><tt>OUT0</tt></b>: Speed control

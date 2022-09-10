@@ -1,9 +1,9 @@
 Broadcast a signal over a range of frequencies.
 
-If a value other than 0 is receiver through <b><tt>IN1</tt></b>, the frequency range is shifted by +<b><tt>IN1</tt></b>*10 rounded to the nearest whole value.
+If a value other than 0 is receiver through <b><tt>IN1</tt></b>, the frequency range is shifted by + <b><tt>IN1</tt></b> * 10 rounded to the nearest whole value.
 
 If multiple broadcasters broadcast over the same frequencies, what value a receiver would pick up is undefined. A transmitter transmitting on a frequency in a broadcasters frequency range will override the broadcast value.
 
 <b><big>Socket information:</big></b>
-<b><tt>IN0</tt></b>: The signal to broadcast.
-<b><tt>IN1</tt></b>: Frequency shift.
+<b><tt>IN0</tt></b>: The signal to broadcast
+<b><tt>IN1</tt></b>: Frequency shift

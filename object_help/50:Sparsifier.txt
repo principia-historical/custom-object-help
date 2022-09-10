@@ -2,7 +2,7 @@ One of the most important devices to understand!
 
 Outputs 1 if <b><tt>IN0</tt></b> is 1 and the preceding value of <b><tt>IN0</tt></b> was not 1.
 
-Example)
-<span font_family="monospace" background="white">000011110000</span> -> <span font_family="monospace" background="white">000010000000</span>
+<b>Example:</b>
+<span font_family="monospace">000011110000</span> -> <span font_family="monospace">000010000000</span>
 
 Use this gate to, for example, convert control panel button presses to button "clicks".

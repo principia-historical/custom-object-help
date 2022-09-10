@@ -15,12 +15,12 @@ this:write_frequency(frequency, value) - write value to frequency
 this:listen_on_frequency(frequency) - begin listening to frequency. can only be done on first run
 this:read_frequency(frequency) - read value from frequency (must have started listening)
 this:first_run() - returns true if this is the first time the script is run
-this:get_position() - returns an array with the position [x, y] of the luascript object 
+this:get_position() - returns an array with the position [x, y] of the luascript object
 
 For sprite rendering functions, see the Sprite Rendering section below.
 
 == game - game stuff ==
-game:show_numfeed(x) - show the number X on the screen (for debugging) 
+game:show_numfeed(x) - show the number X on the screen (for debugging)
 game:finish(success) - finishes the game with the desired state. 1 = win, 0 = lose
 game:add_score(x)    - adds x score to the current score. can be used to decrease score
 game:set_score(x)    - sets the score to x
@@ -72,11 +72,11 @@ mask of 10. The default mask value is 15 covering all sublayers.
 
 Classes:
 
-== entity - a reference to a principia object == 
+== entity - a reference to a principia object ==
 get_id()               - get the unique id
 get_g_id()             - get the g_id (type identifier)
 get_position()         - array with x and y
-get_angle()            - absolute angle 
+get_angle()            - absolute angle
 get_velocity()         - array with x and y velocity
 get_angular_velocity() - angular velocity
 get_bbox()             - approximate width and height of the object

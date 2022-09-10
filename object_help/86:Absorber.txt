@@ -5,4 +5,4 @@ Ball, metal ball, cylinder, interactive cylinder, interactive box, interactive b
 
 <b><big>Socket information:</big></b>
 <b><tt>IN0</tt></b>: Absorb signal
-<b><tt>OUT0</tt></b>: 1.0 when an object was absorbed.
+<b><tt>OUT0</tt></b>: 1.0 when an object was absorbed

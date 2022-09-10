@@ -1,5 +1,5 @@
-Outputs <span font_family="monospace" background="white"><b>IN0</b> * <b>IN0</b></span>. Does not affect binary signals.
+Outputs <b><tt>IN0</tt></b> * <b><tt>IN0</tt></b>. Does not affect binary signals.
 
 <b><big>Socket information:</big></b>
 <b><tt>IN0</tt></b>: Input signal
-<b><tt>OUT0</tt></b>: <span font_family="monospace" background="white"><b>IN0</b> * <b>IN0</b></span>
+<b><tt>OUT0</tt></b>: <b><tt>IN0</tt></b> * <b><tt>OUT0</tt></b>

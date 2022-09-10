@@ -1,4 +1,4 @@
-Rotate the camera to the angle of IN1 if IN0 is above 0.5.
+Rotate the camera to the angle of <b><tt>IN1</tt></b> if <b><tt>IN0</tt></b> is above 0.5.
 
 <b><big>Socket information:</big></b>
 <b><tt>IN0</tt></b>: Set camera angle

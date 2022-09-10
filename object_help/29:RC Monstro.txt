@@ -30,9 +30,8 @@ Example 3) Slider with springy Recoil
 We want to create a slider with a recoil effect that acts like a spring and does not instantly go back to 0. Add a slider widget to <b><tt>OUT0</tt></b>. Connect <b><tt>OUT8</tt></b> (focus) to an Inverter and then to <b><tt>IN16</tt></b> (Override enable/disable). Connect <b><tt>OUT0</tt></b> (raw signal) to your own electronics and separately to a Square component. Connect the Square component to <b><tt>IN8</tt></b> (Override value).
 
 <b><big>Socket information:</big></b>
-<b><tt>OUT0</tt></b>-7  Raw signal
-<b><tt>OUT8</tt></b>-15 Focus signal (0 or 1)
-
-<b><tt>IN0</tt></b>-7   Feedback/report current value
-<b><tt>IN8</tt></b>-15  Override value
-<b><tt>IN16</tt></b>-23 Override enabled/disabled
+<b><tt>OUT0-7</tt></b>  Raw signal
+<b><tt>OUT8-15</tt></b> Focus signal (0 or 1)
+<b><tt>IN0-7</tt></b>   Feedback/report current value
+<b><tt>IN8-15</tt></b>  Override value
+<b><tt>IN16-23</tt></b> Override enabled/disabled

@@ -1,4 +1,4 @@
-Measures the distance to the closest object. The value sent to <b><tt>OUT0</tt></b> is equal to <span font_family="monospace" background="white">1.0-D/L</span> where <span font_family="monospace" background="white">D</span> is the real distance to the object and <span font_family="monospace" background="white">L</span> is the range of the sensor (see Length slider).
+Measures the distance to the closest object. The value sent to <b><tt>OUT0</tt></b> is equal to <span font_family="monospace">1.0-D/L</span> where <span font_family="monospace">D</span> is the real distance to the object and <span font_family="monospace">L</span> is the range of the sensor (see Length slider).
 
 <b><big>Socket information:</big></b>
-<b><tt>OUT0</tt></b>: Inverted distance according to <span font_family="monospace" background="white">1.0-D/L</span>
+<b><tt>OUT0</tt></b>: Inverted distance according to <span font_family="monospace">1.0-D/L</span>

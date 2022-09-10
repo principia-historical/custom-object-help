@@ -2,4 +2,4 @@ Voltage and current regulating power supply. Constant output between 1 V and 24 
 
 <b><big>Socket information:</big></b>
 <b><tt>IN0</tt></b>: Power output multiplier
-<b><tt>OUT0-OUT8</tt></b>: Power output, controlled by the set voltage and IN0.
+<b><tt>OUT0-OUT8</tt></b>: Power output, controlled by the set voltage and IN0

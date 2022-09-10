@@ -24,7 +24,6 @@ Controls or outputs information about the selected robot.
 <b><tt>IN20</tt></b>: Toggle roaming (non-adventure robots only).
 <b><tt>IN21</tt></b>: Cycle weapons
 <b><tt>IN22</tt></b>: Cycle factions
-
 <b><tt>OUT0</tt></b>: Weapon arm angle
 <b><tt>OUT1</tt></b>: Tool arm angle
 <b><tt>OUT2</tt></b>: On weapon fire

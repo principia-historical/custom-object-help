@@ -9,4 +9,4 @@ Destroy connections - Destroys any already-destructible objects connected to the
 
 <b><big>Socket information:</big></b>
 <b><tt>IN0</tt></b>: Activate
-<b><tt>OUT0</tt></b>: Outputs a 1 when the effects have finished.
+<b><tt>OUT0</tt></b>: Outputs a 1 when the effects have finished

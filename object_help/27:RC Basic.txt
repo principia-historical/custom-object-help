@@ -10,11 +10,11 @@ When the game is played, the control panel can be activated. When any of the wid
 
 There are three kinds of widgets.
 
-<u>Buttons</u>
+<b>Buttons</b>:
 A constant value of 0 is reported by default, when the button is pressed a value of 1 is reported and continue being reported until the button is released again.
 
-<u>Sliders</u>
+<b>Sliders</b>:
 The left end of the slider is 0, the right end 1. Any intermediary position is a raw value between 0 and 1. The default value of the slider can be set by moving its handle in the control panel configuration screen.
 
-<u>Rotary widgets</u>
+<b>Rotary widgets</b>:
 Reports a value from 0 to 1 depending on the angular position of the knob. The right-most position (0 degrees) is 0, if the knob is facing UP the reported value is 0.25. If the knob is facing down the reported value is 0.75. The default output value (initial position) of the rotary widget can be set by moving the knob in the control panel configuration screen.

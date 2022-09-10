@@ -2,6 +2,6 @@ Useful tool used for mining and various other things.
 
 Can be used on:
 * Terrain to explore and create caves
-* Items and dead creatures to remove them 
+* Items and dead creatures to remove them
 * Trees to cut wood
 * Ores to gather minerals
