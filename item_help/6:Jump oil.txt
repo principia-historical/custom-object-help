@@ -1,1 +1,1 @@
-Oil used for jumping higher.
+Type of oil that can boost a robot's jump height.

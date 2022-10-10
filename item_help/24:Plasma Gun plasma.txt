@@ -1,1 +1,1 @@
-Used by plasma gun.
+Plasma bullet used by the Plasma Gun.

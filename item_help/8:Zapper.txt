@@ -1,4 +1,4 @@
-Useful tool used for mining and various other things.
+Useful tool used for mining and various other things. The adventure robot has this item by default.
 
 Can be used on:
 * Terrain to explore and create caves

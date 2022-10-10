@@ -1,1 +1,1 @@
-Oil that adds armor. 
+Type of oil that can boost a robot's protection, like armour.

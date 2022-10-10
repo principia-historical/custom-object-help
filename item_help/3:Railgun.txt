@@ -1,1 +1,1 @@
-Pew pew.
+A railgun that can shoot a damaging beam of seemingly infinite length.

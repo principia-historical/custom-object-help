@@ -1,1 +1,3 @@
-Four legs
+Four legs.
+
+Bring this item to a repair station to equip it.

@@ -1,1 +1,1 @@
-Bullet used by the arm cannon.
+Bullet used by the Arm Cannon.

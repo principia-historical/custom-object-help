@@ -1,1 +1,1 @@
-Rocket used by the rocket launcher.
+Rocket used by the Rocket Launcher.

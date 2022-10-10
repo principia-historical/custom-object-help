@@ -1,1 +1,1 @@
-Oil used for faster running speed.
+Type of oil that can boost a robot's running speed.
