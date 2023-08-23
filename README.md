@@ -1,5 +1,8 @@
+# Archival note
+This repository is obsolete as the plaintext object help texts have been removed from Principia in favour of the new Wiki. All of the information contained within has been imported into the new [Principia Wiki](https://principia-web.se/wiki/Objects).
+
 # custom-object-help
-Custom object and item help text files for Principia, intended to be bundled with 1.5.2.
+Custom object and item help text files for Principia, which was intended to be bundled with the old 1.5.2.
 
 ## Installing
 A Github action has been set up that combines the text files on each new commit. To download the latest commit, go to the **Actions** page for this repository, select the newest workflow run and download the `combined-help-files` artifact. It is an archive containing two files, `object_help.txt` and `item_help.txt`.
